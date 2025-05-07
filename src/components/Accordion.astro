@@ -1,0 +1,67 @@
+---
+import answers from '../data/answers.json';
+---
+
+<div class="accordion">
+  {answers.map((answer: { title: string; content: string; }, index: number) => (
+    <div class="accordion-item">
+      <button class="accordion-header" data-index={index}>{answer.title}</button>
+      <div class="accordion-content">
+        <p>{answer.content}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
+<script type="module">
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".accordion-header").forEach(button => {
+      button.addEventListener("click", () => {
+        const content = button.nextElementSibling;
+        const isOpen = content.classList.contains("open");
+
+        document.querySelectorAll(".accordion-content").forEach(el => {
+          el.classList.remove("open");
+          el.style.maxHeight = null;
+        });
+
+        if (!isOpen) {
+          content.classList.add("open");
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    });
+  });
+</script>
+
+<style lang="scss">
+.accordion {
+  width:100%;
+  max-width: 1140px;
+  .accordion-item {
+    margin-bottom: 1rem;
+    .accordion-header {
+      font-weight: bold;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 1rem 0;
+      width: 100%;
+      text-align: left;
+      font-size: clamp(25px, calc(1.49vw + 4.43px), 35px);
+      color:#2a3944;
+    }
+    .accordion-content {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease;
+      padding:0;
+      p {
+        font-size:17px;
+        line-height:1.55;
+        color:#384047;
+      }
+    }
+  }
+}
+</style>

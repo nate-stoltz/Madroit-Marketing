@@ -1,0 +1,58 @@
+[
+    { 
+      "title": "Are you currently employed?", 
+      "content": "No. I was informed of my lay-off on April 28th, but my last day at GMR Marketing was May 1st." 
+    },
+    { 
+      "title": "Can you walk us through your experience with front-end development tools and frameworks?", 
+      "content": "Sure. Over the past 13 years, I've worked with a wide range of front-end tools and frameworks. I'm highly proficient in HTML, SCSS, and JavaScript, and have extensive experience using libraries like jQuery and GSAP for animation. In recent years, I've focused on modern tools like Astro for static site generation, as well as React when component reactivity or interactivity is needed. I also work with build tools like Vite and package managers like NPM or Yarn. For styling, I often use SCSS with BEM conventions, and occasionally Bootstrap when I've needed to quickly style an admin site. My workflow includes Git for version control, Prettier and ESLint for code quality, and I'm comfortable adapting to new tools as projects evolve." 
+    },
+    { 
+      "title": "What programming languages, libraries, and frameworks are you proficient in, and how do you apply them in your projects?", 
+      "content": "I'm proficient in HTML, SCSS, and JavaScript, which form the foundation of all my front-end work. I use JavaScript both in its vanilla form and with libraries like jQuery for quick DOM interactions, and GSAP for advanced animations. I'm familiar with React and use it when dynamic, state-driven interfaces are required, and I also work with Astro for static site generation and performance-focused projects. For styling, I use SCSS with modular, BEM-style architecture, and Bootstrap when a responsive component framework is needed. I choose tools based on the project's goals, balancing maintainability, performance, and user experience." 
+    },
+    { 
+      "title": "How do you approach debugging and optimizing front-end code for performance and responsiveness?", 
+      "content": "When debugging, I start by isolating the issue using browser dev tools - inspecting the DOM, checking console logs, and profiling performance where needed. I rely on clear, modular code and meaningful naming to quickly locate problems. For performance, I optimize asset loading, minimize DOM manipulation, and defer non-critical scripts. I also use tools like Lighthouse to identify bottlenecks. For responsiveness, I follow a mobile-first approach, use fluid layouts with CSS Grid or Flexbox, and test across devices and breakpoints. My goal is always a fast, accessible, and consistent experience across platforms." 
+    },
+    { 
+      "title": "How do you stay organized and manage your time when working on multiple front-end projects or features simultaneously?", 
+      "content": "I stay organized using a combination of digital tools and analog habits. I rely on ClickUp to manage tasks, track progress, and collaborate with others - it helps me break down projects into manageable steps and set clear priorities. Alongside that, I keep a time-honored notepad on my desk for jotting quick thoughts, sketching layouts, or keeping a daily checklist. This hybrid system keeps me focused, flexible, and able to shift between projects without losing track of important details or deadlines." 
+    },
+    { 
+      "title": "How do you decide which UI/UX design patterns or components to use for different types of users and devices?", 
+      "content": "I start by considering the user's goals, the context in which they're interacting with the interface, and the device they're likely to use. I prioritize clarity and accessibility - making sure components are intuitive, responsive, and easy to navigate on both desktop and mobile. I draw from established UI/UX patterns that users are familiar with, adapting them when needed to match brand requirements or project constraints. Finally, I also rely on past experiences and projects to guide decisions and ensure the interface supports both usability and performance." 
+    },
+    { 
+      "title": "Can you describe your experience with responsive design and cross-browser compatibility?", 
+      "content": "Responsive design is a core part of my front-end workflow. I build mobile-first layouts using CSS Grid and Flexbox, and rely on media queries and relative units like em, rem, and vw/vh to ensure fluid, adaptive design across screen sizes. For cross-browser compatibility, I test regularly in Chrome, Safari, Firefox, and Edge, and use tools like BrowserStack and built-in device emulators to catch issues early. I also apply progressive enhancement and fallback styles to maintain a consistent, accessible experience across devices and browsers." 
+    },
+    { 
+      "title": "What's the most complex front-end application or feature you've built or contributed to?", 
+      "content": "One of the most complex front-end applications I've worked on was an interactive HTML Canvas photo cropper. Users could upload or take a photo, crop their face, and overlay it onto one of several animated GIFs. The cropped face and selected animation were sent to a backend service using FFmpeg, and the final image was delivered via email, text, and a custom redemption page. Another notable project was a Phaser.js game for the Nissan Heisman House, where users caught footballs in a virtual Sentra sunroof - complete with increasing difficulty and a live leaderboard. I've also contributed to large-scale CMS projects like Humana Virtual Neighborhood, built on Umbraco with integrated event calendars, RSVP features, and Zoom/Facebook meetups. Across all these, I've handled just about everything from real-time interactivity (via WebSockets and Electron) to CMS-driven content delivery and performance optimization." 
+    },
+    { 
+      "title": "How do you ensure the quality, accessibility, and usability of your front-end code?", 
+      "content": "I ensure quality by writing clean, modular code with consistent naming conventions and clear structure. I use tools like ESLint and Prettier to enforce code standards, and version control with Git to track changes and collaborate efficiently. For accessibility, I follow WCAG guidelines, use semantic HTML, and implement proper ARIA roles where needed. For usability, I focus on intuitive UI patterns, responsive design, and performance - validating layouts across devices and using tools like Lighthouse to identify and fix potential issues." 
+    },
+    { 
+      "title": "What steps do you take to secure front-end applications and protect user data?", 
+      "content": "To secure front-end applications and protect user data, I follow best practices such as validating and sanitizing user input on both the client and server sides to prevent XSS and injection attacks. I avoid exposing sensitive information in the front-end code or network requests, and use HTTPS to ensure secure data transmission. I also implement proper authentication and authorization flows when needed, often integrating with secure backends or third-party services. Additionally, I follow CSP (Content Security Policy) guidelines where applicable and audit dependencies to minimize vulnerabilities from third-party libraries." 
+    },
+    { 
+      "title": "Tell me about your experience working remotely or collaborating with distributed teams.", 
+      "content": "I've been fully remote for the past five years and have extensive experience collaborating with distributed teams. While I previously used Slack, I transitioned to Microsoft Teams based on company requirements and now rely on it daily for communication, meetings, and coordination. I've worked closely with account teams, designers, project managers, outside agencies, and clients - often acting as the bridge between technical execution and creative vision. I stay organized with tools like ClickUp and Git, and prioritize clear documentation and proactive communication to keep everyone aligned. Remote work has strengthened my ability to be self-directed, adaptable, and collaborative across diverse roles and time zones." 
+    },
+    { 
+      "title": "In your opinion, what are some common challenges or biases in front-end development, such as accessibility or user experience, and how do you address them?", 
+      "content": "One common challenge in front-end development is assuming that all users interact with a site the same way - whether it's using a mouse, having perfect vision, or accessing content on a fast connection. These assumptions can lead to accessibility gaps and uneven user experiences. I address this by using semantic HTML, ensuring keyboard accessibility, and working closely with designers to maintain sufficient color contrast and visual clarity. I also advocate for performance-conscious design and strive to balance aesthetics with usability, making sure that visual choices support intuitive, user-friendly interactions across devices." 
+    },
+    { 
+      "title": "What emerging trends or technologies in front-end development excite you, and how do you keep your skills up to date?", 
+      "content": "I'm excited by the continued evolution of frameworks like Astro and the shift toward lightweight, component-based architectures that prioritize performance and flexibility. I'm also interested in modern CSS features and animation libraries like GSAP that help bring interfaces to life without adding heavy dependencies. I keep my skills up to date by building personal projects, exploring new tools, and staying active in the front-end community through GitHub, Twitter, and developer blogs. I enjoy learning through hands-on experimentation and applying those insights to real-world challenges." 
+    },
+    { 
+      "title": "What makes you stand out from other candidates applying for this front-end developer position?", 
+      "content": "What sets me apart is the depth and versatility of my front-end experience. With over 13 years in the field, I've built everything from CMS-driven marketing sites and responsive UI components to interactive games and canvas-based photo tools. I bring a strong balance of creative problem-solving and clean, scalable code. I'm highly adaptable - equally comfortable working with designers, PMs, and clients - and I stay focused on delivering polished, user-friendly experiences that meet real business goals. I also take pride in being reliable, fast, and collaborative - someone who can step in and contribute immediately, with minimal ramp-up time." 
+    }
+  ]
